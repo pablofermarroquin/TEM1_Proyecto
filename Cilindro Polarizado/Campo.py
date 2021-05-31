@@ -28,4 +28,4 @@ for i in range(0,1000):
 plt.ylabel("Campo electrico (V/m)")
 plt.xlabel("Distancia radial (m)")
 plt.plot(s,Campo,c="g")
-plt.title("\nCampo electrico vrs. distancia radial") 
+plt.title("\nCampo electrico vrs. distancia radial")  

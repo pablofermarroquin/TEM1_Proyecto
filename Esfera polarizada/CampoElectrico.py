@@ -32,7 +32,7 @@ for i in range(0,100000):
     elif ( r[i]>2*b+2e-7):
         E.append(Q/(4*np.pi*Epsilon0*r[i]**2))
 
-
+ 
 plt.ylabel("Campo electrico (V/m)")
 plt.xlabel("Distancia radial (m)")
 plt.plot(r/10,E,c="g")

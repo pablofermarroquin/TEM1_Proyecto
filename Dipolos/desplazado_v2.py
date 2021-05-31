@@ -31,7 +31,7 @@ phi_mesh = np.linspace(0, 2*np.pi, 5)
 #phi_mesh = np.array(phi)
 
 #Se crea la matriz de valores
-r , theta, phi = np.meshgrid(r_mesh, theta_mesh, phi_mesh)
+r , theta, phi = np.meshgrid(r_mesh, theta_mesh, phi_mesh) 
 
 #Transformaciones a coordenadas cartesianas
 x = r * np.sin(theta) * np.cos(phi) 
